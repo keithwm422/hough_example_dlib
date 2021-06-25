@@ -133,7 +133,7 @@ int main()
         // corresponds to this point in Hough transform space.
         std::pair<point,point> line = ht.get_line(p);
         ht.get_line_properties(p,ht_phi,ht_r);
-        ht.get_line_properties_friendly(p,ht_phi,ht_r,ht_x,ht_y);
+        //ht.get_line_properties_friendly(p,ht_phi,ht_r,ht_x,ht_y);
         // Finally, let's display all these things on the screen.  We copy the original
         // input image into a color image and then draw the detected line on top in red.
         array2d<rgb_pixel> temp;

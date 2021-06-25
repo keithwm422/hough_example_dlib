@@ -156,7 +156,7 @@ int main()
     std::pair<dlib::point,dlib::point> line = ht.get_line(p);
     //std::pair<point,point> line2 = ht.get_line(best_ht_p);
     ht.get_line_properties(p,ht_phi,ht_r);
-    ht.get_line_properties_friendly(p,ht_phi,ht_r,ht_x,ht_y);
+    //ht.get_line_properties_friendly(p,ht_phi,ht_r,ht_x,ht_y);
     cout << "HT phi: " << ht_phi << " and HT r: " << ht_r << endl;
     cout << "HT x: " << ht_x << " and HT y: " << ht_y << endl;
     //    cout << "HT pixel x: " << p.x() << " and HT pixel y: " << p.y() << endl;
